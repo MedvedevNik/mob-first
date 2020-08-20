@@ -27,4 +27,10 @@ $(function(){
       slidesToScroll: 1,
       arrows: false,
    });
+
+   $(function() {
+      $('.idtop').click(function(){
+         $('html, body').animate({scrollTop:0}, 'slow');
+      });
+   });
 });
